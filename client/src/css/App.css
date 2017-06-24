@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.app>.header-wrap {
+  border: 1px solid red;
+  height: 80px;
+  flex-shrink: 0
+}
+
+.app>.main-wrap {
+  border: 1px solid green;
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+
+.app>.footer-wrap {
+  border: 1px solid blue;
+  height: 80px;
+  flex-shrink: 0;
+}
