@@ -12,20 +12,18 @@ body {
   flex-direction: column;
 }
 
-.app>.header-wrap {
+.app > .header-wrap {
   border: 1px solid red;
   height: 80px;
   flex-shrink: 0
 }
 
-.app>.main-wrap {
-  border: 1px solid green;
+.app > .main-wrap {
   flex-grow: 1;
   overflow-y: scroll;
 }
 
-.app>.footer-wrap {
-  border: 1px solid blue;
-  height: 80px;
+.app > .footer-wrap {
+  height: 50px;
   flex-shrink: 0;
 }
